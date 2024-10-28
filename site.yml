@@ -1,0 +1,6 @@
+---
+- name: Deploy web page to the instance
+  hosts: httpdhost
+  become: true
+  roles:
+    - httpd

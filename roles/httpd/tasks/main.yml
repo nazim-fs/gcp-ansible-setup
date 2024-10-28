@@ -1,0 +1,6 @@
+---
+- name: Copy the httpd web page template to the instance
+  template:
+    src: index.html.j2
+    dest: /var/www/html/index.html
+  notify: Restart httpd
