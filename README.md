@@ -1,4 +1,4 @@
-# Infrastructure setup - GCP
+# Ansible setup - GCP
 
 ## Overview
 This repository contains the configurations and scripts used to set up and secure a CentOS 9 instance on Google Cloud Platform (GCP). The following steps were undertaken to ensure proper configuration, security, and access to the instance.
